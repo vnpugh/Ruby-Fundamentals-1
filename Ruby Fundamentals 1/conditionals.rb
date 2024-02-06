@@ -29,3 +29,22 @@
 1 if the value on the left is greater than the value on the right.
 
 So, 5 <=> 12 # => -1
+
+
+# The ternary operator is another conditional operator that is used to shorten if/else statements in a single line.
+
+condition ? true_value : false_value
+The '?' represents the if, and the ':' represents the else. The condition is evaluated, and if it is true, the true_value is returned. 
+Otherwise, the false_value is returned.
+
+age = 18
+age >= 18 ? "You can vote!" : "You can't vote."
+
+# You can combine conditional and logical operators to create more complex conditions.
+
+age = 18
+age >= 18 && age <= 60  # => true
+age >= 18 || age <= 60  # => true
+
+# In Ruby, conditional statements are created using the if, if/else, if/elsif/else, and case statements.
+
